@@ -30,5 +30,7 @@ while b == 0:
     o = str(input())
     if o == 'нет':
         b = 1
-    else:
+    elif o == 'да':
         b = 0
+    elif o != 'да':
+        b = 1
